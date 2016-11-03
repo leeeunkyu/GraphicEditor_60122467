@@ -13,6 +13,7 @@ public class GPolygon extends GShape{
 	public GPolygon(){
 		super(EDrawingType.NP);
 		this.polygon = new Polygon();
+		System.out.print("test");;
 	}
 
 	@Override
